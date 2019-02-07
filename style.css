@@ -84,6 +84,27 @@ h1 {
 	background: var(--left-bg-color);
 }
 
+.split.right {
+	right: 0;
+	background: url('img/programmer.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.split.right:before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: var(--right-bg-color-bg-color);
+}
+
+
+
+
+
+
+
+
 
 
 
